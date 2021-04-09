@@ -1,0 +1,83 @@
+# This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
+# If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
+# For useful gitignore templates see: https://github.com/github/gitignore
+
+# Salesforce cache
+.sfdx/
+.localdevserver/
+
+# LWC VSCode autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# SOQL Query Results
+**/scripts/soql/query-results
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Eslint cache
+.eslintcache
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+# VS-Code files
+.vim-force.com
+
+# ignore key files
+githubkey.txt
+githubkey.txt.pub
+
+# ignore git configuration
+.github/
+
+# Salesforce cache
+.sfdx/
+.localdevserver/
+
+**/staticresources/**
+.localdevserver
+.sfdx
+.vscode
+
+coverage/
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+**/lwc/**/*.css
+**/lwc/**/*.html
+**/lwc/**/*.json
+**/lwc/**/*.svg
+**/lwc/**/*.xml
+**/aura/**/*.auradoc
+**/aura/**/*.cmp
+**/aura/**/*.css
+**/aura/**/*.design
+**/aura/**/*.evt
+**/aura/**/*.json
+**/aura/**/*.svg
+**/aura/**/*.tokens
+**/aura/**/*.xml
+.sfdx
